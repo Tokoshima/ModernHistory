@@ -36,5 +36,16 @@ namespace ModernHistoryMuseum
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.ShowDialog();
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

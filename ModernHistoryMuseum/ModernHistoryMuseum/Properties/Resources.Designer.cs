@@ -59,5 +59,15 @@ namespace ModernHistoryMuseum.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ww1_dinner_2 {
+            get {
+                object obj = ResourceManager.GetObject("ww1-dinner-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
