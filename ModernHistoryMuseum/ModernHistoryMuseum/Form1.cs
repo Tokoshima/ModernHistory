@@ -16,5 +16,10 @@ namespace ModernHistoryMuseum
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Robbie is big gay");
+        }
     }
 }
