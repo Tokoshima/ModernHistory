@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ModernHistoryMuseum
 {
-    public partial class Form2 : Form
+    public partial class ExhibitCustomer : Form
     {
-        public Form2()
+        public ExhibitCustomer()
         {
             InitializeComponent();
         }
