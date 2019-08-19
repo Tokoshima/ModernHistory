@@ -31,5 +31,10 @@ namespace ModernHistoryMuseum
         {
             MessageBox.Show("dis nie baie nice nie Louw");
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
