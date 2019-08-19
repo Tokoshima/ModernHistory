@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ModernHistoryMuseum
 {
-    public partial class ExhibitAdmin : Form
+    public partial class AdminEventView : Form
     {
-        public ExhibitAdmin()
+        public AdminEventView()
         {
             InitializeComponent();
         }

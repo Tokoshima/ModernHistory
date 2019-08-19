@@ -47,11 +47,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExhibitAdmin.cs">
+    <Compile Include="AdminCriteriaView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ExhibitAdmin.Designer.cs">
-      <DependentUpon>ExhibitAdmin.cs</DependentUpon>
+    <Compile Include="AdminCriteriaView.Designer.cs">
+      <DependentUpon>AdminCriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCustomerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminCustomerView.Designer.cs">
+      <DependentUpon>AdminCustomerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEventView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminEventView.Designer.cs">
+      <DependentUpon>AdminEventView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminExhibitView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminExhibitView.Designer.cs">
+      <DependentUpon>AdminExhibitView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFeedbackView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFeedbackView.Designer.cs">
+      <DependentUpon>AdminFeedbackView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPropView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPropView.Designer.cs">
+      <DependentUpon>AdminPropView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminStaffView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminStaffView.Designer.cs">
+      <DependentUpon>AdminStaffView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminVisitView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminVisitView.Designer.cs">
+      <DependentUpon>AdminVisitView.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -59,31 +101,37 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="ExhibitCustomer.cs">
+    <Compile Include="CustomerExhibitView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ExhibitCustomer.Designer.cs">
-      <DependentUpon>ExhibitCustomer.cs</DependentUpon>
+    <Compile Include="CustomerExhibitView.Designer.cs">
+      <DependentUpon>CustomerExhibitView.cs</DependentUpon>
     </Compile>
-    <Compile Include="ExhibitStaff.cs">
+    <Compile Include="StaffExhibitView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ExhibitStaff.Designer.cs">
-      <DependentUpon>ExhibitStaff.cs</DependentUpon>
+    <Compile Include="StaffExhibitView.Designer.cs">
+      <DependentUpon>StaffExhibitView.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ExhibitAdmin.resx">
-      <DependentUpon>ExhibitAdmin.cs</DependentUpon>
+    <Compile Include="StaffStaffView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffStaffView.Designer.cs">
+      <DependentUpon>StaffStaffView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminExhibitView.resx">
+      <DependentUpon>AdminExhibitView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ExhibitCustomer.resx">
-      <DependentUpon>ExhibitCustomer.cs</DependentUpon>
+    <EmbeddedResource Include="CustomerExhibitView.resx">
+      <DependentUpon>CustomerExhibitView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ExhibitStaff.resx">
-      <DependentUpon>ExhibitStaff.cs</DependentUpon>
+    <EmbeddedResource Include="StaffExhibitView.resx">
+      <DependentUpon>StaffExhibitView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

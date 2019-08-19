@@ -1,6 +1,6 @@
 ﻿namespace ModernHistoryMuseum
 {
-    partial class ExhibitCustomer
+    partial class CustomerExhibitView
     {
         /// <summary>
         /// Required designer variable.
