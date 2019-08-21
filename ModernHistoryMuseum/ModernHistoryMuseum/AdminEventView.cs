@@ -16,5 +16,10 @@ namespace ModernHistoryMuseum
         {
             InitializeComponent();
         }
+
+        private void AdminEventView_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

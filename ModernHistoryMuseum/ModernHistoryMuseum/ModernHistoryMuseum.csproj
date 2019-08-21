@@ -89,6 +89,12 @@
     <Compile Include="AdminStaffView.Designer.cs">
       <DependentUpon>AdminStaffView.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminView.Designer.cs">
+      <DependentUpon>AdminView.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminVisitView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,11 +133,26 @@
     <EmbeddedResource Include="AdminCustomerView.resx">
       <DependentUpon>AdminCustomerView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdminEventView.resx">
+      <DependentUpon>AdminEventView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminExhibitView.resx">
       <DependentUpon>AdminExhibitView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminFeedbackView.resx">
       <DependentUpon>AdminFeedbackView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPropView.resx">
+      <DependentUpon>AdminPropView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminStaffView.resx">
+      <DependentUpon>AdminStaffView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminView.resx">
+      <DependentUpon>AdminView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminVisitView.resx">
+      <DependentUpon>AdminVisitView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

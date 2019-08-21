@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ModernHistoryMuseum
 {
-    public partial class AdminVisitView : Form
+    public partial class AdminView : Form
     {
-        public AdminVisitView()
+        public AdminView()
         {
             InitializeComponent();
-        }
-
-        private void AdminVisitView_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
