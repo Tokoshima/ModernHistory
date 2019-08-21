@@ -121,8 +121,17 @@
     <Compile Include="StaffStaffView.Designer.cs">
       <DependentUpon>StaffStaffView.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminCriteriaView.resx">
+      <DependentUpon>AdminCriteriaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminCustomerView.resx">
+      <DependentUpon>AdminCustomerView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminExhibitView.resx">
       <DependentUpon>AdminExhibitView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFeedbackView.resx">
+      <DependentUpon>AdminFeedbackView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
