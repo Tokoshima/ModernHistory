@@ -29,38 +29,52 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dgvStaffExhibitView = new System.Windows.Forms.DataGridView();
+            this.btnBack = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvStaffExhibitView)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(278, 25);
+            this.label1.Location = new System.Drawing.Point(208, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 17);
+            this.label1.Size = new System.Drawing.Size(88, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Staff Exhibit view";
             // 
-            // dataGridView1
+            // dgvStaffExhibitView
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(29, 66);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(728, 315);
-            this.dataGridView1.TabIndex = 1;
+            this.dgvStaffExhibitView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvStaffExhibitView.Location = new System.Drawing.Point(22, 54);
+            this.dgvStaffExhibitView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvStaffExhibitView.Name = "dgvStaffExhibitView";
+            this.dgvStaffExhibitView.RowTemplate.Height = 24;
+            this.dgvStaffExhibitView.Size = new System.Drawing.Size(566, 285);
+            this.dgvStaffExhibitView.TabIndex = 1;
             // 
-            // Form3
+            // btnBack
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.btnBack.Location = new System.Drawing.Point(513, 344);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(75, 23);
+            this.btnBack.TabIndex = 2;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+            // 
+            // ExhibitStaff
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 460);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(600, 374);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.dgvStaffExhibitView);
             this.Controls.Add(this.label1);
-            this.Name = "Form3";
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "ExhibitStaff";
             this.Text = "Form3";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvStaffExhibitView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -69,6 +83,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvStaffExhibitView;
+        private System.Windows.Forms.Button btnBack;
     }
 }
